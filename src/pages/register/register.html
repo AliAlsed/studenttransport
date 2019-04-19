@@ -1,0 +1,82 @@
+
+
+<ion-content >
+
+
+<div class="fther">
+
+</div>
+
+<div class="register" padding>
+<h2>سجل 
+  <span>الان</span>
+</h2>
+<p>واحصل على توصيلتك</p>
+
+<ion-list>
+
+  <ion-item>
+    <input type="text" placeholder="الاسم الكامل" #name>
+  </ion-item>
+
+  <ion-item>
+    <input type="email" placeholder="البريد الالكتروني" #email>
+  </ion-item>
+
+  
+  <ion-item>
+    <input type="password" placeholder="كلمة المرور" #pass>
+  </ion-item>
+
+
+  <ion-item>
+    <div class="logbut">
+      <button (click)="register(name.value,email.value,pass.value)">تسجيل</button>
+      <p  (click)="showLogin()">
+        <span>لديك</span>
+        حساب مسبقا?
+      </p>
+    </div>
+  </ion-item>
+
+
+</ion-list>
+
+</div>
+
+
+
+
+  <div class="login" padding>
+    <h2>مرحبا 
+      <span>من جديد</span>
+    </h2>
+    <p>قم بلدخول الى حسابك</p>
+    
+    <ion-list>
+
+      <ion-item>
+        <input type="email" placeholder="البريد الالكتروني" #email>
+      </ion-item>
+    
+      
+      <ion-item>
+        <input type="password" placeholder="كلمة المرور" #pass>
+      </ion-item>
+    
+    
+      <ion-item>
+        <div class="logbut">
+          <button (click)="login(email.value,pass.value)">دخول</button>
+          <p (click)="showRegister()">
+            <span>ليس</span>
+            حساب لديك?
+          </p>
+        </div>
+      </ion-item>
+    
+    
+    </ion-list>
+</div>
+
+</ion-content>

@@ -1,0 +1,129 @@
+page-register {
+
+}
+
+
+page-register .fther {
+    height: 30%;
+    background-image: url('../../assets/imgs/back.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+page-register .register {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+page-register .register input {
+    direction: rtl;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+page-register .register h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+page-register .register h2 > span{
+    color: #3498db;
+}
+
+page-register .register p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+page-register .register .logbut {
+    text-align: center;
+    margin-top: 30px;
+}
+
+page-register .register .logbut p{
+margin-top: 10px;
+}
+
+page-register .register .logbut p > span {
+    color: #3498db;
+}
+
+page-register .register button {
+    background: #3498db;
+    color: #FFF;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #ccc;
+}
+
+.loaddire {
+    font-family: 'Cairo', sans-serif;
+}
+
+.login {
+    display: none;
+}
+
+
+
+page-register .login {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+page-register .login input {
+    direction: rtl;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+page-register .login h2 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+page-register .login h2 > span{
+    color: #3498db;
+}
+
+page-register .login p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+page-register .login .logbut {
+    text-align: center;
+    margin-top: 30px;
+}
+
+page-register .login .logbut p{
+margin-top: 10px;
+}
+
+page-register .login .logbut p > span {
+    color: #3498db;
+}
+
+page-register .login button {
+    background: #3498db;
+    color: #FFF;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px #ccc;
+}
+
+.loaddire {
+    font-family: 'Cairo', sans-serif;
+}
+
