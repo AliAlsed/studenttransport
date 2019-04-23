@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';
+import { AddCarPage } from '../add-car/add-car';
 
 /**
  * Generated class for the SettingsPage page.
@@ -19,6 +20,12 @@ export class SettingsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SettingsPage');
+  }
+
+  add(){
+    this.navCtrl.push(
+      AddCarPage
+    );
   }
 
 }

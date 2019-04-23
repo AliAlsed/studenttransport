@@ -1,0 +1,97 @@
+<!--
+  Generated template for the AddCarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>اضف معلوماتك</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-list-header style="text-align:right">
+      معلومات عنك
+
+    </ion-list-header>
+
+    <ion-item>
+      <ion-icon name="md-create" item-end></ion-icon>
+      <ion-input placeholder=" اسمك" #name></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="person" item-end></ion-icon>
+      <ion-input placeholder="عمرك" type="number" #age></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="phone-portrait" item-end></ion-icon>
+      <ion-input placeholder="رقم الهاتف" type="number" #phone></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="map" item-end></ion-icon>
+      <ion-input placeholder="المنطقة" #mntkal></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="pin" item-end></ion-icon>
+      <ion-input placeholder=" المناطق التي ستمر بها" #addrl></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="card" item-end></ion-icon>
+      <ion-input placeholder="السعر" type="text" #price ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="apps" item-end></ion-icon>
+      <ion-input placeholder="عدد المقاعد" type="number" #count></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="car" item-end></ion-icon>
+      <ion-input placeholder="نوع السياره " type="text" #type></ion-input>
+    </ion-item>
+    <ion-list-header>
+      صور للسياره
+    </ion-list-header>
+
+   <!-- <ion-item>
+
+      <ion-grid>
+        <ion-row>
+
+          <ion-col col-6 *ngFor="let image of donloadImgs">
+            <div class="pics">
+              <img [src]="image">
+            </div>
+          </ion-col>
+
+          <ion-col col-6 class="colheader" (click)="takePhoto()">
+            <div class="pic">
+              <img src="assets/imgs/image.svg">
+            </div>
+          </ion-col>
+
+        </ion-row>
+      -->
+      <ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <button class="savedata" color="dark" outline full
+              (click)="addData(name.value,age.value,phone.value,mntkal.value,addrl.value,price.value,count.value,type.value)">نشر
+              الاعلان</button>
+          </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+
+    </ion-item>
+
+
+
+  </ion-list>
+
+
+</ion-content>

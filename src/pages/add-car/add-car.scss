@@ -1,0 +1,111 @@
+page-add-car {
+  font-family: 'Cairo', sans-serif;
+  input{
+    direction: rtl;
+  }
+  .icon[item-start], page-add-car i{
+      direction: rtl;
+    font-size: 25px !important;
+    color: #4E6377;
+    }
+}
+
+page-add-car .toolbar-background-md {
+  background: #fff;
+}
+page-add-car .toolbar-title-md {
+    direction: rtl !important;
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px
+}
+page-add-car.toolbar-title-md p{
+    margin: 0 5px !important;
+    display: inline-block;
+    }
+
+    page-add-car .list-md {
+        direction: rtl;
+        input{
+            direction: rtl;
+        }
+    }
+
+        page-add-car .list-header-md { 
+            margin: 0px;
+            background: #f5f5f5;
+            padding: 6px;
+            color: #000;
+            font-size: 17px;
+            }
+
+            page-add-car .text-input-md {
+                direction: rtl;
+            }
+            page-add-car .text-input-md:focus {
+                border-bottom: 0;
+            }
+            page-add-car .item-md .item-button {
+                padding: 25px;
+                font-size: 17px;
+                background: transparent;
+                border: 1px solid #001f3f;
+                color: #001f3f;
+                margin-top: 15px;
+             
+            }
+            page-add-car .item-md p {
+                color: #000;
+            }
+            page-add-car .icon[item-start], page-add-car  i{
+                direction: rtl;
+                font-size: 25px !important;
+                color: #4E6377;
+                }
+                page-add-car a {
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                page-add-car  .back-button.show-back-button span {
+                    color: #FFF !important;
+                }
+                page-add-car textarea{
+                    width: 100%;
+                    padding: 7px;
+                    direction: rtl;
+                }
+
+                page-add-car .pic, page-add-car .pics{
+                    background: transparent !important;
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #4E6377  ;
+                }
+                page-add-car .pic img {
+                    width: 50px;
+                    height: 50px;
+                 }
+
+                 page-add-car .pics img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+
+                 page-add-car .grid {
+                    padding: 0;
+                }
+
+
+                 page-add-car .savedata {
+                    width: 100%;
+                    background: transparent;
+                    border: 1px solid #001f3f;
+                    padding: 15px;
+                }

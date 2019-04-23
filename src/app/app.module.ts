@@ -14,6 +14,7 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { RegisterPage } from '../pages/register/register';
+import { AddCarPage } from '../pages/add-car/add-car';
 
 var config = {
   apiKey: "AIzaSyDj3ktbJ1M29flYCyimwSRMW3li5GnozlE",
@@ -30,6 +31,7 @@ var config = {
     HomePage,
     TabsPage,
     SettingsPage,
+    AddCarPage,
     LikedPage,
     RegisterPage
   ],
@@ -46,6 +48,7 @@ var config = {
     HomePage,
     TabsPage,
     SettingsPage,
+    AddCarPage,
     LikedPage,
     RegisterPage
   ],
