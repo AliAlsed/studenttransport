@@ -15,6 +15,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { RegisterPage } from '../pages/register/register';
 import { AddCarPage } from '../pages/add-car/add-car';
+import { Camera } from '@ionic-native/camera/ngx';
 
 var config = {
   apiKey: "AIzaSyDj3ktbJ1M29flYCyimwSRMW3li5GnozlE",
@@ -54,6 +55,7 @@ var config = {
   ],
   providers: [
     StatusBar,
+    Camera,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
